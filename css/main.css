@@ -1407,7 +1407,9 @@ ul {
   transition: 0.4s ease;
 }
 .card__cover img {
-  width: 100%;
+  width: 160px;
+  height: 237px;
+  object-fit: cover;
 }
 .card__cover:before {
   content: '';
